@@ -16,16 +16,16 @@ c. Ketika subscribe dijalankan:
     Data yang ada di dataMahasiswa kemudian ditampilkan dalam halaman 
 ![Lihat Data](read.png)
 
-2. Create
+3. Create
 Fungsi tambahMahasiswa()
 a. Fungsi ini dipanggil ketika tombol "Tambah Mahasiswa" ditekan dalam model tambah
 b. Fungsi ini akan memeriksa apakah inputan nama dan jurusan sudah terisi. Jika ada yang kosong maka tidak dapat menyimpan data dan halaman tidak akan berpindah
-c. Jika semua input terisi, fungsi membuat objek data berisi nilai nama dan jurusan 
+c. Jika semua input terisi, fungsi membuat objek data berisi nilai nama dan jurusan
 d. Fungsi kemuadian memanggil metode tambah dari ApiService dengan data tersebut dan mengirimkannya ke endpoint tambah.php
 e. Saat subscribe dipanggil, jika request berhasil maka data akan ditampilkan 
 ![Tambah Data](create.png)
 
-3. Update
+5. Update
 Fungsi openModalEdit()
 a. Fungsi ini dipanggil ketika tombol "Edit" pada data mahasiswa ditekan.
 b. Fungsi menerima id mahasiswa yang ingin diedit dan memanggil fungsi ambilMahasiswa() untuk mengambil data mahasiswa berdasarkan id.
